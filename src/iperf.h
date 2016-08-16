@@ -315,7 +315,7 @@ struct iperf_test
 #define MAX_BLOCKSIZE MB
 /* Maximum size UDP send is (64K - 1) - IP and UDP header sizes */
 #define MAX_UDP_BLOCKSIZE (65535 - 8 - 20)
-#define MIN_INTERVAL 0.1
+#define MIN_INTERVAL 0.0001
 #define MAX_INTERVAL 60.0
 #define MAX_TIME 86400
 #define MAX_BURST 1000
